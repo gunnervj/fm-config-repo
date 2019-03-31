@@ -8,7 +8,7 @@ spring:
       database: user-db 
   cloud:
     config:
-      uri: http://fm-config-server:8888
+      uri: http://fm-config-server.fm.com:8888
       fail-fast: true
       password: ${CONFIG_SERVICE_PASSWORD}
       username: user
