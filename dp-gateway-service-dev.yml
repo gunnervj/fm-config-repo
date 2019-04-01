@@ -1,6 +1,6 @@
 zuul:
   routes:
     echo:
-      path: /users/**
+      path: fm/users/**
       serviceId: dp-user-service
       stripPrefix: true
