@@ -22,6 +22,3 @@ zuul:
         serviceId: dp-user-service
         stripPrefix: false
         sensitiveHeaders:
-
-server:
-  port: 4000
