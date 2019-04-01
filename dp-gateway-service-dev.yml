@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    echo:
+      path: /users/**
+      serviceId: dp-user-service
+      stripPrefix: true
