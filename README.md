@@ -1,2 +1,2 @@
-# mc-config-repo
-Configuration Repository for MC Micro Services
+# dp-config-repo
+Configuration Repository for DP Micro Services
