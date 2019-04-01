@@ -7,6 +7,8 @@ spring:
       password: '{cipher}AgB1MH1weTZ+8NX9l5mi2c3sNAr2ARmfhQvfhFd2zRq+oWUer5xOeUU/iabFXKFuYwD9biIFgdzxiBOKhmNXxwvzXI73hrEoZ/chflvnBNuSivPU1z2Dek55r2fWJ+yigQEqlLgQyJNZwyNE0Sl5SWaAqOFz12CqqCKZOC/SXSruWB6Za1zprmrr2a749DPh6tm3xkybrS4jFGxeQ6xRlx5swRrsJtJdv+1NC+I7up5+TL5Iimu01d8COSwr6Eaq0vzwxy3gHJIBo0hgYf0HeutX21UlzKRyXrfpszTpR5LMOKY+5ZVJqlFH7PCukjfj2h8US1pM4Jkihm+Nty3BTUj1aQa//nZ5DGit9pKM66LzDxsEjYUxrHuiuiyHhAjCyg6vJXKu4EgNe7mpLPMnwbkf/YnFxblEubT+4m8dHxSpVdvuhqHzw/5rXJ8VcjGmIZ1gH0dfP59sdUiUNnGQ7kKMsKkHy4fJE4yvxxN0m8VT2qleJeX0Y2hIhlHCuYw49NCRxJyHBg5ZOzAxNwTLn07QdpnxJZ39fy30K6JH+lM8AfaORkUOXFbMXk5VZgF7qeEtW3jN7oidEIQ6GT9bSQPz47gid90H3RwJdA5Du26zxM3+w+xq2WsitESz1zQVbom/eQPIOJmi2rzFtS2u1Pcq9M7oWmXzKam3jlUOmHWC6DMsE14uQ/vTPjgHsBXPIc5SEVrhPxNEzfN8N69Irnju'
       database: dp-mongo-db
       eureka: 
+
+eureka: 
   client: 
     serviceUrl:
       defaultZone: http://localhost:7780/eureka
