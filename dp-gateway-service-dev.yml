@@ -15,10 +15,8 @@ zuul:
   host:
     connect-timeout-millis: 20000
     socket-timeout-millis: 20000
-
   routes:
     dp-user-service:
-        path: /users/**
-        serviceId: dp-user-service
-        stripPrefix: false
-        sensitiveHeaders:
+      path: /users/**
+      serviceId: dp-user-service
+      sensitiveHeaders: Cookie,Set-Cookie
