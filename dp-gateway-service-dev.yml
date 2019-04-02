@@ -10,13 +10,4 @@ ribbon:
   ReadTimeout: 20000
   ConnectTimeout: 20000
 
-zuul:
-  ignoredServices: '*'
-  host:
-    connect-timeout-millis: 20000
-    socket-timeout-millis: 20000
-  routes:
-    dp-user-service:
-      path: /users/**
-      serviceId: dp-user-service
-      sensitiveHeaders: Cookie,Set-Cookie
+
