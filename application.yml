@@ -8,3 +8,8 @@ spring:
       database: dp-mongo-db
   rabbitmq:
     host: localhost
+    
+eureka:
+  instance:
+    metadataMap:
+      cluster: MYCLUSTER
