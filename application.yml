@@ -13,3 +13,8 @@ eureka:
   instance:
     metadataMap:
       cluster: MYCLUSTER
+      
+turbine:
+  InstanceMonitor:
+    eventStream:
+      skipLineLogic: true
