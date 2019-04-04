@@ -9,11 +9,7 @@ spring:
   rabbitmq:
     host: localhost
     
-eureka:
-  instance:
-    metadataMap:
-      cluster: MYCLUSTER
-      
+    
 turbine:
   InstanceMonitor:
     eventStream:
