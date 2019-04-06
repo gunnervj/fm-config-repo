@@ -9,6 +9,11 @@ spring:
   rabbitmq:
     host: localhost
     
+
+eureka:
+  client:
+    healthcheck:
+      enabled: true
     
 turbine:
   InstanceMonitor:
