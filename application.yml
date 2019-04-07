@@ -19,3 +19,20 @@ management:
     web:
       exposure:
         include: hystrix.stream
+        
+management:
+  endpoint:
+    health:
+      :enabled: true
+      :show-details: always
+  endpoints: 
+    jmx:
+      exposure:
+        include: '*' 
+    enabled-by-default: false
+    web:
+      exposure:
+        include: '*'
+      base-path: /actuator
+      cors:
+        allowed-origins: true
