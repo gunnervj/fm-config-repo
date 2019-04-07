@@ -14,3 +14,27 @@ eureka:
     healthcheck:
       enabled: true
         
+
+management:
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+    hystrix:
+      stream:
+        enabled: true
+  endpoints:
+    
+    web:
+      base-path: /actuator
+      cors:
+        allowed-origins:
+        - '*' 
+      exposure:
+        include: 
+          - hystrix.stream
+    enabled-by-default: false
+    jmx:
+      exposure:
+        include:
+        - '*'
